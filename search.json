@@ -1,6 +1,9 @@
 [
 {"title":"Adidas","category":"Companies","source":"https://www.adidas.com/metaverse","description":"Sold NFTs","htmlfile":"adidas.html"}
+,{"title":"Crazy Frog","category":"Celebrities","source":"https://twitter.com/TrueCrazyFrog/status/1469372276223131648?s=20","description":"Announced official NFTs on MetaBeats","htmlfile":"crazy_frog.html"}
 ,{"title":"Discord","category":"Companies","source":"https://twitter.com/jasoncitron/status/1457841222995693570?s=20","description":"Teased NFT integration on Twitter","htmlfile":"discord.html"}
 ,{"title":"Melania Trump","category":"Celebrities","source":"https://twitter.com/MELANIATRUMP/status/1471468919810670603?s=20","description":"Sold NFTs of a watercolor and her voice","htmlfile":"melania_trump.html"}
+,{"title":"Stan Lee (posthumously)","category":"Celebrities","source":"https://twitter.com/TheRealStanLee/status/1470750431643058181","description":"Announced Chakra the Invincible NFTs","htmlfile":"stan_lee.html"}
+,{"title":"Tsuko G.","category":"Celebrities","source":"https://meteora.lunaris.inc/","description":"Runs “Meteora, the Layer-2 Multi-Blockchain, NFT-based internet of music and Metaverse”","htmlfile":"tsuko_g.html"}
 ,{"title":"Ubisoft","category":"Companies","source":"https://quartz.ubisoft.com/welcome/","description":"Planned NFT game integrations","htmlfile":"ubisoft.html"}
 ]
