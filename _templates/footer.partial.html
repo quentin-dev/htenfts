@@ -1,0 +1,17 @@
+<footer>
+    <p>$strings.footer_text$</p>
+    <p class="updatededit">
+        $strings.updated_on$ $updatedtime$
+        $if(basename)$
+        $if(github_url)$
+        ·
+        <a href="$github_url$/edit/main/_pages/$basename$.md">$strings.edit$</a>
+        $endif$
+        $else$
+        $if(github_url)$
+        ·
+        <a href="$github_url$">$strings.contribute$</a>
+        $endif$
+        $endif$
+    </p>
+</footer>
