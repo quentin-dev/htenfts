@@ -1,4 +1,4 @@
-# Have They Endorsed NFTs?
+# [Have They Endorsed NFTs?](https://havetheyendorsednfts.com/)
 
 *A simple website to track who & what company has endorsed NFTs*
 
