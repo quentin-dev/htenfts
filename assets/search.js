@@ -53,14 +53,14 @@ function search(query) {
         // boost favorites a little
         if (score > 0 && e["favorite"]) score += 2;
 
-        results.push({score: score, e: e});
+        results.push({ score: score, e: e });
     });
 
     results = results
-      .filter(r => r.score > 0)           // filter out non-results
-      .sort((a, b) => b.score - a.score)  // should be "a.score - b.score", but then we'd need to reverse afterwards
-      .slice(0, 10)                       // limit to the best 10 results
-      .map(e => e.e);                     // throw away score
+        .filter(r => r.score > 0)           // filter out non-results
+        .sort((a, b) => b.score - a.score)  // should be "a.score - b.score", but then we'd need to reverse afterwards
+        .slice(0, 10)                       // limit to the best 10 results
+        .map(e => e.e);                     // throw away score
 
     return results;
 }
@@ -83,7 +83,7 @@ function showResults(results) {
             + `<h3>`
             + `<i class="icons">`
             + (e.favorite ? `<img src="assets/tabler-icons/tabler-icon-star.svg"> ` : ``)
-            + ((e.veggie || e.vegan) ? `` : `<img src="assets/tabler-icons/tabler-icon-meat.svg"> `)
+            + (e.meat ? `<img src="assets/tabler-icons/tabler-icon-meat.svg"> ` : ``)
             + (e.vegan ? `<img src="assets/tabler-icons/tabler-icon-leaf.svg"> ` : ``)
             + (e.spicy ? `<img src="assets/tabler-icons/tabler-icon-pepper.svg"> ` : ``)
             + (e.sweet ? `<img src="assets/tabler-icons/tabler-icon-candy.svg"> ` : ``)
